@@ -1,0 +1,594 @@
+doctype html
+html(lang="en", dir="ltr")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE-edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/slick.css")
+    link(rel="stylesheet", href="css/slick-theme.css")
+    link(rel="stylesheet", href="css/bootstrap5.min.css")
+    link(rel="stylesheet", href="css/all.min.css")
+    link(rel="stylesheet", href="css/animate.css")
+    link(rel="stylesheet", href="css/master.css")
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap' rel='stylesheet')
+    script(src="JS/html5shiv.min.js")
+    script(src="JS/respond.min.js")
+    title Wellness
+  body
+    
+    // Start Navbar
+    
+    .upper-bar
+      .container
+        .contact-us
+          .msg
+            i.fa.fa-phone-volume #[span +91 9876543210]
+          .msg
+            i.fa.fa-envelope #[span info@example.com]
+          //.choose-lang
+            img(src="imges/United.png" alt="" title="")
+            span English #[i.fa.fa-chevron-down]
+            .down
+              img(src="imges/flag-eg.png" alt="" title="")
+              span English 
+                //i.fa.fa-chevron-down
+              
+          //.dropdown
+            button#dropdownMenuButton1.btn.btn-secondary.dropdown-toggle(type='button' data-bs-toggle='dropdown' aria-expanded='false') Dropdown button
+            ul.dropdown-menu(aria-labelledby='dropdownMenuButton1')
+              li
+                a.dropdown-item(href='#') Action
+              li
+                a.dropdown-item(href='#') Another action
+              li
+                a.dropdown-item(href='#') Something else here
+          //.dropdown
+            a#dropdownMenuLink.btn.btn-secondary.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
+              | Dropdown link
+            ul.dropdown-menu(aria-labelledby='dropdownMenuLink')
+              li
+                a.dropdown-item(href='#') Action
+              li
+                a.dropdown-item(href='#') Another action
+              li
+                a.dropdown-item(href='#') Something else here
+
+    
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light#header_id
+      .container
+        a.navbar-brand(href='#') logo here
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.me-auto.mb-2.mb-lg-0
+            li.nav-item
+              a.nav-link.active(aria-current='page' href='#') Home
+            li.nav-item
+              a.nav-link(href='#') Shop by Type
+            li.nav-item
+              a.nav-link(href='#') Shop by Condition
+            li.nav-item
+              a.nav-link(href='#') Shop All
+            li.nav-item
+              a.nav-link(href='#') Blog
+          .register.d-flex
+            .lang-upper
+              i.fas.fa-search
+              i.far.fa-user
+              i.far.fa-heart
+              i.fas.fa-shopping-cart
+              
+    // End Navbar
+    
+
+
+    include layout/header
+    
+    
+    // Start About One Section
+
+    section.about-photo
+      .container
+        .row 
+          .col-md-6.wow.fadeInRight(data-wow-duration="1.5s" data-wow-delay="0.5s" data-wow-offset="300")
+            .img-right
+              img(src="imges/Rectangle2.png", alt="" title="")
+          .col-md-6
+            .row
+              .col-6
+                .img-left
+                  img.wow.fadeInLeft(src="imges/Rectangle3.png", alt="" title="" data-wow-duration="1.5s" data-wow-delay="0.4s" data-wow-offset="300")
+              .col-6
+                .img-left
+                  img.wow.fadeInLeft(src="imges/Rectangle4.png", alt="" title="" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="300")
+              .col-6
+                .img-left
+                  img.wow.fadeInLeft(src="imges/Rectangle5.png", alt="" title="" data-wow-duration="1.5s" data-wow-delay="0.4s" data-wow-offset="100")
+              .col-6
+                .img-left
+                  img.wow.fadeInLeft(src="imges/Rectangle6.png", alt="" title="" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="100")
+
+
+    // End About One Section
+    
+    // Start My Product One Section
+    
+    
+    section.my-works
+      .container
+        h2.text-center.before-heading Top Seller
+        p.font-p Top Sale In This Week
+        .row
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle7.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle8.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle2.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle9.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle10.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle5.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6
+            .box.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+        button.show-more Load More
+
+
+
+    // End My Product One Section
+    
+    
+    // Start About Tow Section
+
+    section.about-photo-tow
+      .container
+        .row 
+          .col-md-6.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .img-right
+              img(src="imges/Rectangle11.png", alt="" title="")
+          .col-md-6.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .img-left
+              img(src="imges/Rectangle12.png", alt="" title="")
+              
+
+    // End About Tow Section
+    
+    // Start My Product Tow Section
+    
+    section.my-works
+      .container
+        h2.text-center.upper.before-heading  New Arrivals
+        p.font-p Added in this month
+        .row
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.6s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle13.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle4.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.2s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle5.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.2s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle6.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle14.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.6s" data-wow-offset="300")
+            .box
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle15.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.6s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInLeft(data-wow-duration="2.5s" data-wow-delay="0.2s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.2s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.4s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+          .col-lg-2.col-md-3.col-6.wow.bounceInRight(data-wow-duration="2.5s" data-wow-delay="0.6s" data-wow-offset="300")
+            .box.toggl-tow.hidden
+              .head
+                .overlay
+                  button.insed-1 View Live
+                  button.insed-2 Add To Cart
+                img(src="imges/Rectangle.png", alt="" title="")
+              .text
+                p Kiremo Intimate
+                p Rejuvenation
+                span Rs. 2300
+        button.show-more#btn-second Load More
+
+
+    // End My Product Tow Section
+    
+    // Start Blog Section
+    
+    section.blog
+      .container
+        h2.text-center.before-heading  latest blog
+        p.text-center.font-p The Freshest and most exciting news
+        .row
+          .col-lg-4.col-sm-6.wow.bounceInUp(data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="300")
+            .main-box
+              .up-img
+                img(src="imges/Rectangle16.png", alt="" title="")
+              p By #[span.bold Bakr Nasifon] on #[span.bold January 15, 2021]
+              h5 Powerful Ways to Raise Your Vibration
+              p If you believe the phrase you are what you think, then life truly stems from your thoughts. But we cannot rely pure...
+          .col-lg-4.col-sm-6.wow.bounceInUp(data-wow-duration="2s" data-wow-delay="0.4s" data-wow-offset="300")
+            .main-box
+              .up-img
+                img(src="imges/Rectangle17.png", alt="" title="")
+              p By #[span.bold Bakr Nasifon] on #[span.bold January 15, 2021]
+              h5 Powerful Ways to Raise Your Vibration
+              p If you believe the phrase you are what you think, then life truly stems from your thoughts. But we cannot rely pure...
+          .col-lg-4.col-sm-6.wow.bounceInUp(data-wow-duration="2s" data-wow-delay="0.3s" data-wow-offset="300")
+            .main-box
+              .up-img
+                img(src="imges/Rectangle18.png", alt="" title="")
+              p By #[span.bold Bakr Nasifon] on #[span.bold January 15, 2021]
+              h5 Powerful Ways to Raise Your Vibration
+              p If you believe the phrase you are what you think, then life truly stems from your thoughts. But we cannot rely pure...
+    
+    
+    // End Blog Section
+    
+    // Start My Follow Section
+    
+    section.follow
+      .container
+        h2.text-center.upper.before-heading Follow on insta
+        p.text-center.font-p Added in this month
+        .autoplay
+          .itm
+            .up-img
+              img(src="imges/Rectangle19.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle20.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle21.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle22.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle23.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle24.png", alt="" title="")
+          .itm
+            .up-img
+              img(src="imges/Rectangle2.png", alt="" title="")
+        .row
+          .col-lg-3.col-6
+            .icon-follow
+              span #[i.fa.fa-shuttle-van]
+              .ico-body
+                h6 Free Shipping
+                p Free shipping on all UAE orders over 100 AED
+          .col-lg-3.col-6
+            .icon-follow
+              span #[i.fa.fa-phone-volume]
+              .ico-body
+                h6 Free Shipping
+                p Free shipping on all UAE orders over 100 AED
+          .col-lg-3.col-6
+            .icon-follow
+              span #[i.fa.fa-redo]
+              .ico-body
+                h6 Free Shipping
+                p Free shipping on all UAE orders over 100 AED
+          .col-lg-3.col-6
+            .icon-follow
+              span #[i.fa.fa-dollar-sign]
+              .ico-body
+                h6 Free Shipping
+                p Free shipping on all UAE orders over 100 AED
+    
+                
+                
+
+    // End My Follow Section
+    
+    // Start Big Footer Section
+
+    section.big-footer
+      .container
+        .row
+          .col-lg-8.col-md-12
+            .foot-left
+              .row
+                .col-sm-3.col-6.order-1
+                  .item-ul
+                    h5 Get in touch
+                    ul
+                      li Dubai, UAE
+                      li wellvy.com
+                      li Info@wellvy.com
+                      li +971  5557  78096
+                .col-sm-3.col-6
+                  .item-ul
+                    h5 Categories
+                    ul
+                      li Wellness
+                      li Beauty
+                      li Food & Beverages
+                      li Household
+                      li Clothes
+                      li Books
+                .col-sm-3.col-6
+                  .item-ul
+                    h5 Infomation
+                    ul
+                      li About Us
+                      li Contact us
+                      li Terms of Service
+                      li Privacy Policy
+                      li Refund Policy
+                      li Shipping Policy
+                .col-sm-3.col-6
+                  .item-ul
+                    h5 Useful links
+                    ul
+                      li Search
+                      li Why to Buy from
+                      li FAQs
+                      li Affiliate Program
+          .col-lg-4.col-md-12
+            .item-ul-out
+              h5 Newsletter Signup
+              ul
+                li Subscribe to our newsletter and get  15% off your first purchase
+                li
+                  .up-input
+                    input(type="text" placeholder="You Email Adress")
+                    button Subscibe
+                li
+                  .visa-img
+                    img(src="imges/visa.png", alt="" title="")
+                    img(src="imges/paypal.png", alt="" title="")
+                    img(src="imges/master.png", alt="" title="")
+                    img(src="imges/google_pay.png", alt="" title="")
+
+
+
+    // End Big Footer Section
+
+    // Start Footer Section
+
+    .footer
+      span Copyright &copy; 2021 WELLVY All Rights reseved
+      .pages
+        ul
+          li About Us      
+          li Contact us     
+          li Terms of Service     
+          li Privacy Policy     
+          li Refund PolicyShipping Policy
+
+
+
+    // End Footer Section
+
+    //a#scroll-top.hvr-buzz-out
+      i.fa.fa-chevron-up.fa-2x
+
+    include layout/footerscripts

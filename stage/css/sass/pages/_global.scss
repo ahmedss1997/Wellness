@@ -1,0 +1,47 @@
+
+* {
+  @include prefixer(box-sizing, border-box, webkit moz);
+}
+
+
+ul, ol {
+  list-style: none;
+  // padding: 0;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+hr {
+  background-color: $main-color;
+  width: 1170px;
+  height: 2px !important;
+  margin: 60px auto !important;
+  margin-bottom: 30px !important;
+}
+
+
+#scroll-top {
+  width: 50px;
+  height: 50px;
+  background-color: #37A000;
+  border-radius: 50%;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 30;
+  //display: none;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    background-color: green;
+  }
+  i {
+    height: 100%;
+    line-height: 50px;
+    padding-left: 13px;
+    color: $other-color;
+  }
+}

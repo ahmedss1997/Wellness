@@ -1,0 +1,125 @@
+
+/* Start Header Page */
+
+.header {
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .content {
+      //background: url(../imges/Rectangle.png) no-repeat top center;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      padding: 15vh 0;
+//      @media(max-width: 767px) {
+//        height: 300px;
+//      }
+      &.slick-active {
+        .txt {
+          h1 {
+            animation: fadeInUpSD 1.5s .5s ease 1;
+          }
+          p {
+            animation: fadeInUpSD 2s .5s ease 1;
+          }
+          button {
+            animation: fadeInUpSD 2.5s .5s ease 1;
+          }
+        }
+      }
+      .txt {
+        margin-top: 0px;
+        h1 {
+          color: $main-color;
+          margin-top: 0;
+          font-size: 44px;
+          text-transform: uppercase;
+          @media (max-width: 767px) {
+            font-size: 20px;
+          }
+        }
+        p {
+          color: $black-color;
+          font-size: 18px;
+          text-transform: uppercase;
+          @media(max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+        button {
+          width: 180px;
+          height: 50px;
+          background-color: $main-color;
+          border: 1px solid $main-color;
+          border-radius: 5px;
+          text-transform: uppercase;
+          margin: 35px auto 30px;
+          display: block;
+          font-weight: bold;
+          font-size: 18px;
+          outline: none;
+          color: $other-color;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            color: $main-color;
+            background-color: transparent;
+          }
+          @media(max-width: 767px) {
+            width: 140px;
+            height: 40px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    ul.slick-dots {
+      bottom: 10px;
+      @media(max-width: 767px) {
+        bottom: 30px;
+      }
+      li {
+        button {
+          &::before {
+            font-size: 16px;
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/* End Header Page */
+
+
+// animation on the heading
+
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
